@@ -1,0 +1,81 @@
+body{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+background: #FFFFFF;
+color: #22343D;
+}
+
+.logo{
+    width: 40px;
+    height: 36px;
+}
+
+.btn-singup, .btn{
+    background-color: #02897A;
+    color: #FFFFFF;
+}
+
+.spn{
+    font-weight: 700;
+    font-size: 30px;
+    color: 22343D;
+}
+
+.navigation{
+    list-style-type: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #22343D;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navigation a:active{
+    font-weight: 600;
+}
+
+.navigation .link-active{
+    font-weight: 600;
+}
+
+
+.btn-singin{
+    background-color: #BCD0E5;
+    color: #173A56;
+}
+
+.hero h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hero p{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.hero-actions a{
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero-actions a:active{
+    text-decoration: underline;
+}
+
+.hero .hero-img{
+    width: 610px;
+    height: 555px;
+}
+
+.features h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+
+}
