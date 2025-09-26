@@ -3,6 +3,11 @@ font-family: "Poppins", sans-serif;
 font-size: 16px;
 background: #FFFFFF;
 color: #22343D;
+font-weight: 400;
+}
+
+ul, li{
+    list-style-type: none;
 }
 
 .logo{
@@ -22,7 +27,6 @@ color: #22343D;
 .spn{
     font-weight: 700;
     font-size: 30px;
-    color: 22343D;
 }
 
 .navigation{
@@ -97,4 +101,62 @@ color: #22343D;
 
 .list li{
     list-style-type: none;
+}
+
+.management h2{
+    font-weight: 600;
+}
+
+.management .spn{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.management h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.management p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.customer_support h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.customer_support .spn{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.customer_support ul img{
+    width: 35px;
+    height:35px;
+}
+
+.customer_support h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.customer_support p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.collaborative h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.collaborative .spn{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.collaborative p{
+    font-weight: 400;
+    font-size: 16px;
 }
