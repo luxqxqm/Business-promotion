@@ -19,11 +19,20 @@ ul, li{
     background-color: #02897A;
     color: #FFFFFF;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .btn{
     font-weight: 700;
+    font-size: 16px;
 }
+.btn-singin {
+    background-color: #BCD0E5;
+    color: #173A56;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 .spn{
     font-weight: 700;
     font-size: 30px;
@@ -46,13 +55,6 @@ ul, li{
 
 .navigation .link-active{
     font-weight: 600;
-}
-
-
-.btn-singin{
-    background-color: #BCD0E5;
-    color: #173A56;
-    font-weight: 700;
 }
 
 .hero h1{
@@ -160,3 +162,64 @@ ul, li{
     font-weight: 400;
     font-size: 16px;
 }
+
+.quick_easy_process h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.quick_easy_process-p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.quick_easy_process .btn{
+    text-align: cent
+}
+
+.contents_strategy h2{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.spn-strategy{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.text-strategy{
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    color: #22343D;
+}
+
+.text-strategy:active{
+    color: #02897A;
+
+}
+
+.text-strategy:hover {
+    color: #02897A;
+
+}
+
+.price-table h2{
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.table-status{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.price{ /*Незнаю як зробити тільки цифру тільки бо бере цілий текст*/
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+
+}
+/* Далі уже пізніше дороблю) */
