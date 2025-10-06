@@ -1,225 +1,210 @@
 body{
-font-family: "Poppins", sans-serif;
-font-size: 16px;
-background: #FFFFFF;
-color: #22343D;
-font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFFFF;
+    color: #22343D;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
-ul, li{
+/* #region Reset*/
+ul , ol{
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
-.logo{
-    width: 40px;
-    height: 36px;
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0 ;
 }
 
-.btn-singup, .btn{
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    border-radius: 5px;
+}
+
+span{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* #endregion Reset*/
+
+
+/* #region Visual hidden*/
+
+
+/* #endregion Visual hidden */
+
+
+
+/* #region Commons*/
+
+.container{
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+
+/* #endregion Commons */
+
+/* #region header*/
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-link{
+    display: flex;
+    gap: 16px;
+    margin-right:237px;
+}
+
+.nav-link-active{
+    font-weight: 600;
+
+}
+
+.nav-list{
+    display: flex;
+    gap: 30px;
+    padding: 21px 0;
+}
+
+.nav-item{
+    
+}
+.nav{
+    margin: 0 auto;
+}
+
+.product-logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn-nav{
+    display: flex;
+    gap: 21px;
+    padding: 19px 0;
+}
+
+.btn-singin{
+    padding: 9px 0;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+    background: #FFFFFF;
+    font-weight: 600;
+    width: 105px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-singup{
+    padding: 9px 0;
     background-color: #02897A;
     color: #FFFFFF;
-    font-weight: 700;
-    font-size: 16px;
-}
-
-.btn{
-    font-weight: 700;
-    font-size: 16px;
-}
-.btn-singin {
-    background-color: #BCD0E5;
-    color: #173A56;
-    font-weight: 700;
-    font-size: 16px;
-}
-
-.spn{
-    font-weight: 700;
-    font-size: 30px;
-}
-
-.navigation{
-    list-style-type: none;
-}
-
-.navigation a{
-    text-decoration: none;
-    color: #22343D;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.navigation a:active{
     font-weight: 600;
+    width: 105px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+}
+/* #endregion header */
+
+
+/* #region main section hero*/
+
+.container-hero{
+    display: flex;
+    padding-top: 25px;
+    gap: 35px;
+    padding-bottom: 104px   ;
 }
 
-.navigation .link-active{
-    font-weight: 600;
-}
-
-.hero h1{
+.hero-subtitle{
     font-weight: 700;
     font-size: 40px;
 }
 
-.hero p{
-    font-weight: 400;
+.container-text{
+    padding-top: 112px ;
+}
+
+.hero-text{
     font-size: 18px;
-    text-align: left;
+    padding-top: 18px;
+    width: 465px;
+    margin-bottom: 45px;
 }
 
-.hero-actions a{
-    color: #02897A;
-    font-size: 16px;
+.buttons{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn{
+    color: #FFFFFF;
+    background-color: #02897A;
     font-weight: 600;
-    text-decoration: none;
+    padding: 15px 30px;
 }
 
-.hero-actions a:active{
+.hero-link{
+    font-weight: 600;
+    color: #02897A;
+}
+
+.hero-link:focus{
     text-decoration: underline;
 }
 
-.hero .hero-img{
-    width: 610px;
-    height: 555px;
-}
+/* #endregion hero */
 
-.features h2{
-    font-size: 32px;
-    font-weight: 700;
+/* #region main section features*/
+
+.features-subtitle{
     text-align: center;
-
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 32px;
+    width: 539px;
 }
 
-.features h3{
+.features-list{
+    display: flex;
+    padding: 50px 0;
+    gap: 30px;
+}
+
+.features-text{
+    padding-bottom: 13px;
     font-weight: 600;
     font-size: 22px;
 }
 
-.features p{
-    font-weight: 400;
-    font-size: 16px;
+.features-subtext{
 }
 
-.list li{
-    list-style-type: none;
+.btn-center{
+    display: flex;
+    justify-content: center;
 }
-
-.management h2{
-    font-weight: 600;
-}
-
-.management .spn{
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.management h3{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.management p{
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.customer_support h2{
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.customer_support .spn{
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.customer_support ul img{
-    width: 35px;
-    height:35px;
-}
-
-.customer_support h3{
-    font-size: 16px;
-    font-weight: 600;
-}
-.customer_support p{
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.collaborative h2{
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.collaborative .spn{
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.collaborative p{
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.quick_easy_process h2{
-    text-align: center;
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.quick_easy_process-p{
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-}
-
-.quick_easy_process .btn{
-    text-align: cent
-}
-
-.contents_strategy h2{
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.spn-strategy{
-    font-weight: 700;
-    font-size: 16px;
-}
-
-.text-strategy{
-    font-weight: 700;
-    font-size: 24px;
-    text-decoration: none;
-    color: #22343D;
-}
-
-.text-strategy:active{
-    color: #02897A;
-
-}
-
-.text-strategy:hover {
-    color: #02897A;
-
-}
-
-.price-table h2{
-    font-weight: 700;
-    font-size: 34px;
-}
-
-.table-status{
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.price{ /*Незнаю як зробити тільки цифру тільки бо бере цілий текст*/
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 76px;
-
-}
-/* Далі уже пізніше дороблю) */
+/* #endregion main section features */
