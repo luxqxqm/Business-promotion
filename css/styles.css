@@ -764,9 +764,11 @@ button{
     display: flex;
     max-width: 968px;
     min-height: 345px;
-    margin-bottom: 100px;
     background-color: #02897A;
     border-radius: 32px;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 .grafics-title{
